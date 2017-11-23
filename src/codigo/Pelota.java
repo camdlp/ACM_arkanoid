@@ -95,6 +95,7 @@ public class Pelota extends GOval{
 			
 			}
 			_arkanoid.remove(auxiliar);
+			_arkanoid.marcador.actualizaMarcador(1);
 			noHaChocado = false;
 		}
 		else if (auxiliar instanceof Barra){
