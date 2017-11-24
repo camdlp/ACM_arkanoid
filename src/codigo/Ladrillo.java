@@ -1,3 +1,6 @@
+/**
+ * Autor Carlos Abia Merino		1ºDAM
+ */
 package codigo;
 
 import java.awt.Color;
