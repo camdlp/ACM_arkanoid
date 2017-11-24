@@ -49,6 +49,7 @@ public class Pelota extends GOval{
 	 */
 	public void muevete(Arkanoid _arkanoid){
 		//chequea si ha chocado con las paredes izq o derecha
+		
 		if (getX() + getWidth() >= _arkanoid.getWidth() - _arkanoid.espacioMenu
 				|| getX()<0){
 			xVelocidad *= -1; 
